@@ -1,0 +1,15 @@
+{
+  "config": "C1_structure_aware",
+  "source_file": "data/processed/chunks_c1.jsonl",
+  "source_sha256": "e8e3f85bdd57b70d8dac3c1b48f6badd2dde7cea164e54c3c6ea2fdb5bb697de",
+  "model": "BAAI/bge-m3",
+  "device": "cpu",
+  "batch_size": 4,
+  "normalize_embeddings": true,
+  "vector_count": 521,
+  "vector_dimension": 1024,
+  "dtype": "float32",
+  "embedding_time_seconds": 196.70666613499998,
+  "min_l2_norm": 0.9999998807907104,
+  "max_l2_norm": 1.0000001192092896
+}

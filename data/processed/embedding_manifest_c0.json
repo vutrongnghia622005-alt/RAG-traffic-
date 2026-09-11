@@ -1,0 +1,32 @@
+{
+  "benchmark": "C0",
+  "source": {
+    "chunk_file": "data/processed/chunks_c0.jsonl",
+    "chunk_file_sha256": "dcfe79d4b78b594b9c31c3f45afa9afa7107307a26564d298af17f38db283981",
+    "total_chunks": 412
+  },
+  "embedding": {
+    "model": "BAAI/bge-m3",
+    "type": "dense",
+    "device": "cpu",
+    "batch_size": 4,
+    "normalize_embeddings": true,
+    "similarity": "cosine",
+    "dimension": 1024,
+    "dtype": "float32"
+  },
+  "validation": {
+    "min_l2_norm": 0.9999998807907104,
+    "max_l2_norm": 1.0000001192092896,
+    "nan_found": false,
+    "inf_found": false,
+    "status": "PASS"
+  },
+  "runtime": {
+    "embedding_seconds": 201.87
+  },
+  "outputs": {
+    "embeddings": "data/processed/embeddings_c0.npy",
+    "metadata": "data/processed/chunk_metadata_c0.jsonl"
+  }
+}

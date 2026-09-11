@@ -45,7 +45,6 @@ results/*.tmp
 .ipynb_checkpoints
 # Generated RAG data
 data/interim/
-data/processed/
 
 # Generated QC reports
 results/chunk_qc/
