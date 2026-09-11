@@ -43,3 +43,9 @@ results/*.tmp
 
 # Jupyter
 .ipynb_checkpoints
+# Generated RAG data
+data/interim/
+data/processed/
+
+# Generated QC reports
+results/chunk_qc/
